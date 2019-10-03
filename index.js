@@ -13,6 +13,7 @@ console.log('number *= 10 // 50 ', number)
 number /= 5 // 1
 console.log('number /= 5 // 1 ', number)
 
+
 function add(a, b){
   return a + b
 }
@@ -30,9 +31,9 @@ function divide(a, b){
 }
 
 function inc(n){
-  return n + 1
+  return parseInt(n) + 1
 }
 
 function dec(n){
-  return n - 1
+  return parseInt(n) - 1
 }
