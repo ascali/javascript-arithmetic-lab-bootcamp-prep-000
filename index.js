@@ -14,13 +14,6 @@ number /= 5 // 1
 console.log('number /= 5 // 1 ', number)
 
 
-function add(a, b){
-  return a + b
-}
-
-function subtract(a, b){
-  return a - b
-}
 
 function multiply(a, b){
   return a * b
@@ -36,4 +29,14 @@ function inc(n){
 
 function dec(n){
   return parseInt(n) - 1
+}
+
+function makeInt(n){
+  n = parseInt(n)
+  return n
+}
+
+function preserveDecimal(n){
+  n = parseFloat(n)
+  return n
 }
